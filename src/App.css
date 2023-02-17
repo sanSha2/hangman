@@ -1,38 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap");
+/* import font from google fonts */
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/*
+The background colour of the entire page
+*/
+body {
+  padding-left: 0.5vw;
+  padding-right: 0.5vw;
+  margin: 0.2vw;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* custom CSS for header*/
+header {
+  padding: 0.2vw;
+  margin: 0.2vw;
+  border: solid grey;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* custom CSS for main container*/
+main {
+  padding-top: 0.5vw;
+  margin: 0.2vw;
+  border: solid grey;
 }
 
-.App-link {
-  color: #61dafb;
+/* custom CSS for h1*/
+h1 {
+  color: navy;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* custom CSS for h2*/
+h2 {
+  color: navy;
+}
+
+/* custom CSS for h3*/
+h3 {
+  text-align: center;
+  color: navy;
+}
+
+/* custom CSS for navigation*/
+nav {
+  padding-left: 0.5vw;
+  margin: 0.5vw;
+}
+
+/* custom CSS for any p tags*/
+p {
+  padding-left: 0.5vw;
+  padding-right: 0.5vw;
+  margin: 0.5vw;
+}
+
+/* custom CSS for hangman image*/
+.manImage {
+  width: 10vw;
+  padding: 2vw;
+  margin: 2vw;
+  border: solid 2px rgb(63, 75, 141);
+}
+
+/* custom CSS for notifications when shown*/
+#notiShow {
+  color: navy;
+}
+
+/* custom CSS for help buttpn aside*/
+aside {
+  text-align: right;
+  padding: 0.2vw;
+  margin: 0.2vw;
+  border: solid grey;
+}
+
+/* custom CSS for play again button*/
+.playButton {
+  background-color: rgb(132, 191, 192);
+  padding-left: 2vw;
+  padding-right: 2vw;
+  margin: 2vw;
+  border: solid 2px rgb(63, 75, 141);
+}
+
+/* custom CSS for help button*/
+#helpButton {
+  background-color: rgb(193, 193, 248);
+  padding-left: 2vw;
+  padding-right: 2vw;
+  margin: 2vw;
+}
+
+/* custom CSS for help container*/
+.helpContainer {
+  padding: 0;
+  margin: 0 0 30px 0;
+}
+
+/* custom CSS for list items in help container*/
+.helpContainer li {
+  text-align: left;
+  font-size: 16px;
 }
