@@ -14,11 +14,12 @@ This project was made as a Task during my Bootcamp. Its guessing word game. It c
 
 - Tap on the button in top right of this project saying 'Code' and download zip folder to your desired directory.
 - Unzip the folder
-- Open Terminal use 'cd' commands to navigate to the desired folder use 'cd ..'/'cd..' to move up a directory/folder and 'cd dirName' to move in the directory.
+- Or you can clone repository by writing $ git clone [https://github.com/sanSha2/hangman.git](https://github.com/sanSha2/hangman.git).
+- Open Terminal use 'cd' commands to navigate to the desired folder use 'cd ..' or 'cd..' to move up a directory/folder and 'cd dirName' to move in the directory.
 - Finally run 'cd hangman' for the final navigation.
 - Run `npm install`. It will install all the required 'node_modules' on your machine.
 - Now run `npm start`
-- Your default broswer will open, and the game will start. or you can navigate to it at [localhost:3000/](localhost:3000/).
+- Your default broswer will open, and the game will start. or you can navigate to it at [localhost:3000/](localhost:3000/)
 - You can learn here [React](https://reactjs.org/docs/getting-started.html), and make your own hangman.
 
 [How to play Hangman!](#howToPlay)
