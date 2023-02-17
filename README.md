@@ -21,10 +21,10 @@ This project was made as a Task during my Bootcamp. Its guessing word game. It c
 - Your default broswer will open, and the game will start. or you can navigate to it at [localhost:3000/](localhost:3000/).
 - You can learn here [React](https://reactjs.org/docs/getting-started.html), and make your own hangman.
 
-- [How to play Hangman!](#howToPlay)
-  The aim of the game is to correctly guess the word that is generated. Each blank space represents a letter, and it's your job to guess the right letters.
+[How to play Hangman!](#howToPlay)
+The aim of the game is to correctly guess the word that is generated. Each blank space represents a letter, and it's your job to guess the right letters.
 
-#Classic Hangman Game
+# Classic Hangman Game
 
 - To re-start the game, click the 'Play again' button any time at the bottom.
 - Guess a letter by typing it on your computer. Choose carefully though, as you can only guess an incorrect letter ten times.
